@@ -1,0 +1,63 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "TenRusl Droid Vectorizer — Settings Schema",
+    "description": "Skema validasi untuk konfigurasi lokal aplikasi.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "decimals": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 8,
+            "default": 2,
+            "description": "Jumlah desimal untuk pembulatan pathData."
+        },
+        "convertShapes": {
+            "type": "boolean",
+            "default": false,
+            "description": "Konversi bentuk dasar (rect/circle/ellipse/line/poly*) menjadi path."
+        },
+        "defaultDp": {
+            "type": "integer",
+            "minimum": 8,
+            "maximum": 512,
+            "default": 24,
+            "description": "Ukuran fisik default VectorDrawable (dp)."
+        },
+        "density": {
+            "type": "string",
+            "enum": ["mdpi", "hdpi", "xhdpi", "xxhdpi", "xxxhdpi"],
+            "default": "mdpi",
+            "description": "Kerapatan pratinjau."
+        },
+        "theme": {
+            "type": "string",
+            "enum": ["light", "dark"],
+            "default": "light",
+            "description": "Tema pratinjau."
+        },
+        "grid": {
+            "type": "boolean",
+            "default": false,
+            "description": "Tampilkan grid pada area pratinjau."
+        },
+        "locale": {
+            "type": "string",
+            "enum": ["en", "id"],
+            "default": "en",
+            "description": "Bahasa UI."
+        }
+    },
+    "required": [],
+    "examples": [
+        {
+            "decimals": 2,
+            "convertShapes": false,
+            "defaultDp": 24,
+            "density": "xhdpi",
+            "theme": "light",
+            "grid": false,
+            "locale": "id"
+        }
+    ]
+}

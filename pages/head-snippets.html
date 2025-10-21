@@ -1,0 +1,51 @@
+<!-- head-snippets.html (paste inside <head> on every page, before any analytics/ads libraries) -->
+
+<!-- 1) Consent Mode v2 (must load before gtag/AdSense) -->
+<script>
+    // consent-base (inline)
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        functionality_storage: "denied",
+        security_storage: "granted",
+    });
+    window.updateConsent = function (consent = {}) {
+        gtag(
+            "consent",
+            "update",
+            Object.assign(
+                {
+                    ad_storage: "granted",
+                    ad_user_data: "granted",
+                    ad_personalization: "granted",
+                    analytics_storage: "granted",
+                },
+                consent
+            )
+        );
+    };
+</script>
+
+<!-- 2) Google tag (gtag.js) — optional (for GA4 & consent forwarding) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-XXXXXXXXXX");
+</script>
+
+<!-- 3) AdSense Auto ads -->
+<script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3735882384148563"
+    crossorigin="anonymous"
+></script>

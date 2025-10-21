@@ -1,0 +1,49 @@
+{
+    "version": 2,
+    "mode": "web-ga-ads",
+    "directives": {
+        "default-src": ["'self'"],
+        "script-src": [
+            "'self'",
+            "'unsafe-inline'",
+            "https://www.googletagmanager.com",
+            "https://pagead2.googlesyndication.com"
+        ],
+        "style-src": ["'self'", "'unsafe-inline'"],
+        "img-src": [
+            "'self'",
+            "data:",
+            "blob:",
+            "https://www.google-analytics.com",
+            "https://pagead2.googlesyndication.com",
+            "https://googleads.g.doubleclick.net",
+            "https://tpc.googlesyndication.com"
+        ],
+        "font-src": ["'self'", "data:"],
+        "connect-src": [
+            "'self'",
+            "https://www.google-analytics.com",
+            "https://region1.analytics.google.com",
+            "https://www.googletagmanager.com",
+            "https://pagead2.googlesyndication.com",
+            "https://googleads.g.doubleclick.net"
+        ],
+        "frame-src": [
+            "https://googleads.g.doubleclick.net",
+            "https://tpc.googlesyndication.com",
+            "https://adservice.google.com"
+        ],
+        "worker-src": ["'self'", "blob:"],
+        "child-src": ["'none'"],
+        "frame-ancestors": ["'none'"],
+        "object-src": ["'none'"],
+        "base-uri": ["'none'"],
+        "form-action": ["'self'"],
+        "upgrade-insecure-requests": []
+    },
+    "notes": [
+        "Mengizinkan GA/gtag & AdSense. Inline script diperlukan untuk snippet gtag(), hence 'unsafe-inline'.",
+        "Jika ingin tanpa 'unsafe-inline', gunakan nonce/hash dan terapkan ke tag <script> inline.",
+        "frame-ancestors tetap 'none' agar situs tidak bisa di-embed pihak lain."
+    ]
+}

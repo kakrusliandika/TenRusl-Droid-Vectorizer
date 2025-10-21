@@ -1,0 +1,46 @@
+{
+    "languages": [
+        { "id": "markup", "label": "HTML / Markup", "prism": "markup" },
+        { "id": "xml", "label": "XML", "prism": "markup" },
+        { "id": "css", "label": "CSS", "prism": "css" },
+        { "id": "scss", "label": "SCSS", "prism": "scss" },
+        { "id": "less", "label": "Less", "prism": "less" },
+
+        { "id": "javascript", "label": "JavaScript", "prism": "javascript" },
+        { "id": "typescript", "label": "TypeScript", "prism": "typescript" },
+        { "id": "jsx", "label": "JSX", "prism": "jsx" },
+        { "id": "tsx", "label": "TSX", "prism": "tsx" },
+
+        { "id": "json", "label": "JSON", "prism": "json" },
+        { "id": "yaml", "label": "YAML", "prism": "yaml" },
+        { "id": "toml", "label": "TOML", "prism": "toml" },
+        { "id": "ini", "label": "INI", "prism": "ini" },
+
+        { "id": "bash", "label": "Bash / Shell", "prism": "bash" },
+        { "id": "powershell", "label": "PowerShell", "prism": "powershell" },
+
+        { "id": "python", "label": "Python", "prism": "python" },
+        { "id": "go", "label": "Go", "prism": "go" },
+        { "id": "java", "label": "Java", "prism": "java" },
+        { "id": "kotlin", "label": "Kotlin", "prism": "kotlin" },
+        { "id": "swift", "label": "Swift", "prism": "swift" },
+        { "id": "php", "label": "PHP", "prism": "php" },
+        { "id": "ruby", "label": "Ruby", "prism": "ruby" },
+        { "id": "rust", "label": "Rust", "prism": "rust" },
+        { "id": "c", "label": "C", "prism": "c" },
+        { "id": "cpp", "label": "C++", "prism": "cpp" },
+        { "id": "csharp", "label": "C#", "prism": "csharp" },
+
+        { "id": "sql", "label": "SQL", "prism": "sql" },
+        { "id": "graphql", "label": "GraphQL", "prism": "graphql" },
+        { "id": "regex", "label": "RegExp", "prism": "regex" },
+
+        { "id": "markdown", "label": "Markdown", "prism": "markdown" },
+        { "id": "protobuf", "label": "Protocol Buffers", "prism": "protobuf" },
+
+        { "id": "docker", "label": "Dockerfile", "prism": "docker" },
+        { "id": "nginx", "label": "NGINX", "prism": "nginx" },
+        { "id": "apacheconf", "label": "Apache Conf", "prism": "apacheconf" },
+        { "id": "git", "label": "Git", "prism": "git" }
+    ]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title data-i18n="offline.title">You are offline — TenRusl Droid Vectorizer</title>
+        <meta name="description" content="Offline page for TenRusl Droid Vectorizer." />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- Icons / Fonts -->
+        <link rel="stylesheet" href="../assets/plugin/fontawesome/css/all.min.css" />
+        <link rel="icon" href="../assets/images/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="../assets/images/icon.svg" />
+        <!-- Styles -->
+        <link rel="stylesheet" href="../assets/css/theme.css" />
+        <link rel="stylesheet" href="../assets/css/chrome.css" />
+        <link rel="stylesheet" href="../assets/css/header.css" />
+        <link rel="stylesheet" href="../assets/css/footer.css" />
+        <link rel="stylesheet" href="../assets/css/pages.css" />
+
+        <noscript
+            ><style>
+                .reveal {
+                    opacity: 1;
+                    translate: 0;
+                }
+            </style></noscript
+        >
+    </head>
+    <body>
+        <!-- Header injected by header-pages.js -->
+
+        <main id="main" class="main">
+            <div class="container">
+                <nav class="breadcrumbs">
+                    <a href="/" data-i18n="nav.home">Home</a>
+                    <span>/</span>
+                    <span data-i18n="offline.breadcrumb">Offline</span>
+                </nav>
+
+                <section class="card center reveal" style="min-height: 50vh; text-align: center">
+                    <div>
+                        <h1 data-i18n="offline.title">You are offline</h1>
+                        <p class="mb-3" data-i18n="offline.lead">This page is not available without a connection.</p>
+                        <p class="mb-4" data-i18n="offline.hint">
+                            Reconnect and try again. The app supports PWA caching, so key assets may still work.
+                        </p>
+                        <button
+                            class="btn btn-primary"
+                            type="button"
+                            onclick="location.reload()"
+                            data-i18n="offline.cta"
+                        >
+                            Retry
+                        </button>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer injected by footer-pages.js -->
+
+        <!-- Scripts (order matters) -->
+        <script src="../assets/js/theme.js" defer></script>
+        <script src="../assets/js/language-pages.js" defer></script>
+        <script src="../assets/js/header-pages.js" defer></script>
+        <script src="../assets/js/footer-pages.js" defer></script>
+        <script src="../assets/js/pages.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+{
+    "version": 1,
+    "updatedAt": "2025-10-20T00:00:00.000Z",
+    "presets": [
+        {
+            "id": "max_quality",
+            "label": "Max Quality",
+            "description": "Presisi tinggi untuk ikon kompleks; minim artefak.",
+            "settings": {
+                "decimals": 4,
+                "convertShapes": true,
+                "defaultDp": 24,
+                "density": "xhdpi",
+                "theme": "light",
+                "grid": false,
+                "locale": "en"
+            }
+        },
+        {
+            "id": "balanced",
+            "label": "Balanced",
+            "description": "Kompromi ketajaman vs ukuran; cocok mayoritas ikon.",
+            "settings": {
+                "decimals": 2,
+                "convertShapes": false,
+                "defaultDp": 24,
+                "density": "hdpi",
+                "theme": "light",
+                "grid": false,
+                "locale": "id"
+            }
+        },
+        {
+            "id": "max_reduce",
+            "label": "Max Reduce",
+            "description": "Ukuran minimum untuk ikon sederhana; risiko distorsi ringan.",
+            "settings": {
+                "decimals": 1,
+                "convertShapes": true,
+                "defaultDp": 24,
+                "density": "mdpi",
+                "theme": "dark",
+                "grid": true,
+                "locale": "en"
+            }
+        }
+    ]
+}

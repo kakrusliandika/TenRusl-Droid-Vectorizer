@@ -1,0 +1,52 @@
+{
+    "app.title": "TenRusl Droid Vectorizer",
+    "app.tagline": "Convert SVG to Android VectorDrawable",
+
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+
+    "common.reset": "Reset",
+    "common.close": "Close",
+    "common.copy": "Copy",
+    "common.copied": "Copied",
+    "common.download": "Download",
+
+    "preset.max_quality": "Max Quality",
+    "preset.balanced": "Balanced",
+    "preset.max_reduce": "Max Reduce",
+
+    "vectorizer.inputs": "Inputs & Settings",
+    "vectorizer.dropTitle": "Drop SVG files here",
+    "vectorizer.dropHint": "or click to select files",
+    "vectorizer.presets": "Presets",
+    "vectorizer.precision": "Precision (decimals)",
+    "vectorizer.convertShapes": "Convert shapes to paths",
+    "vectorizer.defaultDp": "Default size (dp)",
+    "vectorizer.density": "Preview density",
+    "vectorizer.grid": "Grid",
+
+    "vectorizer.downloadLog": "Download Log",
+    "vectorizer.exportAll": "Export All",
+    "vectorizer.preview": "Preview",
+    "vectorizer.results": "Results",
+    "vectorizer.noWarnings": "No warnings",
+
+    "preview.controls.density": "Density",
+    "preview.controls.theme": "Theme",
+    "preview.controls.grid": "Grid",
+
+    "vectorizer.ready": "Ready — drop SVG files",
+    "vectorizer.processing": "Processing…",
+    "vectorizer.done": "Done",
+    "vectorizer.failed": "Failed",
+
+    "actions.preview": "Preview",
+    "actions.xml": "XML",
+    "actions.copyXml": "Copy XML",
+
+    "warn.UNKNOWN": "See mapping reference for details.",
+    "warn.FILL_NON_SOLID": "Non-solid fills may not translate to VectorDrawable.",
+    "warn.STROKE_COMPLEX": "Complex strokes may be simplified.",
+    "warn.FILTERS_IGNORED": "SVG filters are not supported and were ignored."
+}

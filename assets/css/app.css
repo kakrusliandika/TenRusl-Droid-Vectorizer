@@ -1,0 +1,336 @@
+/* =========================================================
+   TenRusl Droid Vectorizer — App CSS
+   ========================================================= */
+
+/* Layout utama dua kolom */
+.app-main {
+    display: grid;
+    grid-template-columns: minmax(340px, 480px) 1fr;
+    gap: 16px;
+    padding: 16px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+}
+.panel-actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* Dropzone */
+.dropzone {
+    margin: 14px;
+    border: 2px dashed var(--border);
+    border-radius: 14px;
+    padding: 18px;
+    display: grid;
+    place-items: center;
+    background: var(--surface);
+    cursor: pointer;
+    transition: border-color 0.2s ease, background 0.2s ease;
+}
+.dropzone:hover {
+    border-color: var(--ring);
+}
+.dropzone.drag {
+    border-color: var(--brand);
+    background: rgba(139, 92, 246, 0.08);
+}
+.dz-inner {
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    text-align: center;
+    color: var(--muted);
+}
+.dz-icon {
+    font-size: 34px;
+    color: var(--brand);
+}
+.dz-text .title {
+    font-weight: 700;
+}
+.dz-text .hint {
+    font-size: 12px;
+    opacity: 0.85;
+}
+
+/* Settings grid */
+.settings {
+    display: grid;
+    gap: 12px;
+    padding: 12px 14px 16px;
+    border-top: 1px solid var(--border);
+}
+.field {
+    display: grid;
+    gap: 6px;
+}
+.field.toggle {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+.field label {
+    font-size: 13px;
+    color: var(--muted);
+}
+.field input[type="number"],
+.field select {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    outline: none;
+}
+.range {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    align-items: center;
+}
+.range input[type="range"] {
+    width: 100%;
+}
+.range output {
+    min-width: 2ch;
+    text-align: right;
+    color: var(--muted);
+}
+
+.settings-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-top: 6px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--brand);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.08s ease, opacity 0.2s ease;
+}
+.btn:hover {
+    background: var(--brand-strong);
+}
+.btn:active {
+    transform: scale(0.98);
+}
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.btn.ghost {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--border);
+}
+.icon {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Preview area */
+.preview {
+    padding: 12px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    min-height: 220px;
+    overflow: auto;
+}
+
+/* Warnings panel */
+.warnings {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+}
+.warn-list {
+    display: grid;
+    gap: 6px;
+}
+.warn-item {
+    display: grid;
+    grid-template-columns: 84px 1fr;
+    gap: 8px;
+    padding: 8px 10px;
+    background: rgba(234, 179, 8, 0.06);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font-size: 13px;
+}
+.warn-item .code {
+    font-weight: 700;
+    color: #eab308;
+}
+.warn-item .msg {
+    color: var(--text);
+    opacity: 0.95;
+}
+.warn-empty {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* Results list */
+.results {
+    padding: 10px 12px 14px;
+    display: grid;
+    gap: 10px;
+}
+.result {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px 12px;
+    align-items: center;
+    border: 1px solid var(--border);
+    background: var(--panel);
+    border-radius: 12px;
+    padding: 10px 12px;
+}
+.result .meta {
+    display: grid;
+    gap: 4px;
+}
+.result .title {
+    font-weight: 700;
+}
+.result .sub {
+    color: var(--muted);
+    font-size: 12px;
+}
+.result .actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* Utilities */
+.flex-spacer {
+    flex: 1;
+}
+.badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--muted);
+}
+.badge-mini {
+    font-size: 10px;
+    line-height: 1;
+    padding: 3px 6px;
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--muted);
+    border: 1px solid var(--border);
+}
+
+/* Modal: XML Preview */
+.tenrusl-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: none;
+}
+.tenrusl-modal.is-open {
+    display: block;
+}
+.tenrusl-modal__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+.tenrusl-modal__dialog {
+    position: relative;
+    max-width: min(980px, 96vw);
+    max-height: min(80vh, 92dvh);
+    margin: 6vh auto;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.tenrusl-modal__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+}
+.tenrusl-modal__actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.tenrusl-modal__body {
+    padding: 0;
+}
+.tenrusl-modal__pre {
+    margin: 0;
+    padding: 12px 14px;
+    background: var(--surface);
+    color: var(--text);
+    font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    white-space: pre;
+    overflow: auto;
+    max-height: clamp(300px, 60vh, 70vh);
+    border-top: 1px solid var(--border);
+}
+.tenrusl-modal__pre code {
+    display: block;
+}
+
+/* Prevent body scroll when modal open */
+body.tenrusl-no-scroll {
+    overflow: hidden;
+}
+
+/* Mobile */
+@media (max-width: 980px) {
+    .app-main {
+        grid-template-columns: 1fr;
+    }
+    .btn .label {
+        display: none;
+    }
+    .tenrusl-modal__dialog {
+        margin: 4vh auto;
+    }
+}

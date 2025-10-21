@@ -1,0 +1,5 @@
+Contact: mailto:contact@tenrusl.com
+Policy: https://tenrusl-droid-vectorizer.pages.dev/security
+Acknowledgments: https://tenrusl-droid-vectorizer.pages.dev/security#hall-of-fame
+Preferred-Languages: en, id
+Canonical: https://tenrusl-droid-vectorizer.pages.dev/.well-known/security.txt

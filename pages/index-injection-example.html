@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>TenRusl DiffView — Ad Demo</title>
+        <meta
+            name="description"
+            content="Lightweight, fast, and safe PWA code highlighter — AdSense + Consent Mode demo."
+        />
+        <link rel="stylesheet" href="../assets/css/pages.css" />
+        <meta name="theme-color" content="#ffffff" />
+        <noscript
+            ><style>
+                .reveal {
+                    opacity: 1;
+                    translate: 0;
+                }
+            </style></noscript
+        >
+
+        <!-- Consent Mode default -->
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("consent", "default", {
+                ad_storage: "denied",
+                ad_user_data: "denied",
+                ad_personalization: "denied",
+                analytics_storage: "denied",
+                functionality_storage: "denied",
+                security_storage: "granted",
+            });
+            window.updateConsent = function (overrides = {}) {
+                gtag(
+                    "consent",
+                    "update",
+                    Object.assign(
+                        {
+                            ad_storage: "granted",
+                            ad_user_data: "granted",
+                            ad_personalization: "granted",
+                            analytics_storage: "granted",
+                        },
+                        overrides
+                    )
+                );
+            };
+        </script>
+
+        <!-- Google tag (optional) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-BSD1MR7KQN"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-BSD1MR7KQN");
+        </script>
+
+        <!-- AdSense Auto ads -->
+        <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3735882384148563"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <main id="main" class="main">
+            <div class="container">
+                <nav class="breadcrumbs"><a href="/">Home</a> / Ad Demo</nav>
+
+                <article class="prose card reveal">
+                    <h1>Ad Unit Example</h1>
+                    <p>Example in-page ad unit placement below.</p>
+
+                    <div class="ad-wrap">
+                        <ins
+                            class="adsbygoogle"
+                            style="display: block"
+                            data-ad-client="ca-pub-3735882384148563"
+                            data-ad-slot="1234567890"
+                            data-ad-format="auto"
+                            data-full-width-responsive="true"
+                        ></ins>
+                    </div>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+
+                    <h2>Notes</h2>
+                    <ul>
+                        <li>Consent is required for personalized ads (EEA/UK/CH with certified CMP).</li>
+                        <li>Use the cookie banner to grant or reject consent.</li>
+                    </ul>
+                </article>
+            </div>
+        </main>
+
+        <script src="../assets/js/pages.js" defer></script>
+    </body>
+</html>

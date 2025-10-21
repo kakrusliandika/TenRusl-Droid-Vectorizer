@@ -1,0 +1,226 @@
+{
+    "en": {
+        "nav": {
+            "home": "Home",
+            "contact": "Contact",
+            "privacy": "Privacy",
+            "terms": "Terms",
+            "cookies": "Cookies"
+        },
+
+        "common": {
+            "lastUpdated": "Last updated",
+            "copied": "Copied",
+            "ok": "OK"
+        },
+
+        "contact": {
+            "title": "Contact — TenRusl Droid Vectorizer",
+            "heading": "Contact",
+            "description": "We’d love to hear from you.",
+            "form": {
+                "nameLabel": "Name",
+                "namePlaceholder": "Your name",
+                "emailLabel": "Email",
+                "emailPlaceholder": "you@example.com",
+                "messageLabel": "Message",
+                "messagePlaceholder": "How can we help?",
+                "help": "Submitting uses your email app (mailto). You can also write us directly.",
+                "submit": "Send",
+                "openMail": "Open mail app"
+            },
+            "direct": {
+                "title": "Direct",
+                "emailLabel": "Email",
+                "copyBtn": "Copy email",
+                "hours": "Support hours: 09:00–18:00 (Asia/Jakarta), Mon–Fri."
+            }
+        },
+
+        "privacy": {
+            "title": "Privacy Policy — TenRusl Droid Vectorizer",
+            "heading": "Privacy Policy",
+            "intro": "TenRusl Droid Vectorizer (the “Service”) is a web app (PWA) for code highlighting. We respect your privacy.",
+            "summary": {
+                "heading": "Summary",
+                "item1": "We may use Google AdSense to serve ads.",
+                "item2": "For users in the EEA/UK/CH, we use a Google-certified CMP.",
+                "item3": "We do not sell personal data."
+            },
+            "data": {
+                "heading": "Data We Process",
+                "body": "Device data, cookies, and similar identifiers may be used for advertising and analytics according to your consent."
+            },
+            "cookies": {
+                "heading": "Cookies & Consent",
+                "body": "We implement Google Consent Mode v2 and a certified CMP. You can adjust your choices anytime via our cookie banner/controls."
+            },
+            "ads": {
+                "heading": "Google Advertising",
+                "body": "Third-party vendors, including Google, may use cookies to serve ads based on your visits. You can opt out of personalized ads in your Google Ads settings.",
+                "link1": "Manage Google Ads settings",
+                "link2": "How Google uses data"
+            },
+            "rights": {
+                "heading": "Your Rights",
+                "body": "Subject to applicable law, you may access, correct, delete, or restrict processing. Contact us via the Contact page."
+            },
+            "contact": {
+                "heading": "Contact"
+            }
+        },
+
+        "terms": {
+            "title": "Terms of Service — TenRusl Droid Vectorizer",
+            "heading": "Terms of Service",
+            "items": [
+                { "title": "Acceptance", "body": "By accessing the Service, you agree to these terms." },
+                {
+                    "title": "Use",
+                    "body": "Do not misuse the Service, including spam, excessive scraping, or unlawful activity."
+                },
+                {
+                    "title": "Ownership",
+                    "body": "Copyright in source code and brand assets remains with their respective owners."
+                },
+                { "title": "Disclaimer", "body": "The Service is provided “as is” without warranties." },
+                { "title": "Limitation of Liability", "body": "We are not liable for indirect damages or data loss." },
+                { "title": "Advertising", "body": "We may display third-party ads (Google AdSense)." },
+                { "title": "Changes", "body": "We may update these terms from time to time." },
+                { "title": "Contact", "body": "See the Contact page." }
+            ]
+        },
+
+        "cookies": {
+            "title": "Cookie Policy — TenRusl Droid Vectorizer",
+            "heading": "Cookie Policy",
+            "intro": "We use cookies and similar technologies for essential functions, analytics, and advertising (as consented).",
+            "types": {
+                "heading": "Types of Cookies",
+                "essential": { "name": "Essential", "desc": "Security, core preferences." },
+                "analytics": { "name": "Analytics", "desc": "Aggregate usage metrics." },
+                "advertising": { "name": "Advertising", "desc": "Personalized / non-personalized ads." }
+            },
+            "table": { "headType": "Type", "headPurpose": "Purpose" },
+            "manage": {
+                "heading": "Manage Preferences",
+                "body": "You can adjust choices using our cookie banner/controls or your browser settings.",
+                "resetBtn": "Reset consent"
+            }
+        }
+    },
+
+    "id": {
+        "nav": {
+            "home": "Beranda",
+            "contact": "Kontak",
+            "privacy": "Privasi",
+            "terms": "Ketentuan",
+            "cookies": "Cookie"
+        },
+
+        "common": {
+            "lastUpdated": "Terakhir diperbarui",
+            "copied": "Tersalin",
+            "ok": "OK"
+        },
+
+        "contact": {
+            "title": "Kontak — TenRusl Droid Vectorizer",
+            "heading": "Kontak",
+            "description": "Kami senang mendengar dari Anda.",
+            "form": {
+                "nameLabel": "Nama",
+                "namePlaceholder": "Nama Anda",
+                "emailLabel": "Email",
+                "emailPlaceholder": "anda@contoh.com",
+                "messageLabel": "Pesan",
+                "messagePlaceholder": "Ada yang bisa kami bantu?",
+                "help": "Pengiriman menggunakan aplikasi email Anda (mailto). Anda juga dapat menghubungi langsung.",
+                "submit": "Kirim",
+                "openMail": "Buka aplikasi email"
+            },
+            "direct": {
+                "title": "Langsung",
+                "emailLabel": "Email",
+                "copyBtn": "Salin email",
+                "hours": "Jam dukungan: 09.00–18.00 (Asia/Jakarta), Sen–Jum."
+            }
+        },
+
+        "privacy": {
+            "title": "Kebijakan Privasi — TenRusl Droid Vectorizer",
+            "heading": "Kebijakan Privasi",
+            "intro": "TenRusl Droid Vectorizer (“Layanan”) adalah aplikasi web (PWA) untuk highlight kode. Kami menghargai privasi Anda.",
+            "summary": {
+                "heading": "Ringkasan",
+                "item1": "Kami dapat menggunakan Google AdSense untuk menayangkan iklan.",
+                "item2": "Untuk pengguna di EEA/UK/CH, kami menggunakan CMP tersertifikasi Google.",
+                "item3": "Kami tidak menjual data pribadi."
+            },
+            "data": {
+                "heading": "Data yang Diproses",
+                "body": "Data perangkat, cookie, dan pengenal serupa dapat digunakan untuk iklan dan analitik sesuai persetujuan Anda."
+            },
+            "cookies": {
+                "heading": "Cookie & Persetujuan",
+                "body": "Kami menerapkan Google Consent Mode v2 dan CMP tersertifikasi. Anda dapat menyesuaikan pilihan kapan saja melalui banner/kontrol cookie kami."
+            },
+            "ads": {
+                "heading": "Periklanan Google",
+                "body": "Vendor pihak ketiga, termasuk Google, dapat menggunakan cookie untuk menayangkan iklan berdasarkan kunjungan Anda. Anda dapat menonaktifkan iklan personal di pengaturan Google Ads.",
+                "link1": "Kelola pengaturan Google Ads",
+                "link2": "Cara Google menggunakan data"
+            },
+            "rights": {
+                "heading": "Hak Anda",
+                "body": "Sesuai hukum yang berlaku, Anda dapat meminta akses, koreksi, penghapusan, atau pembatasan pemrosesan. Hubungi kami via halaman Kontak."
+            },
+            "contact": {
+                "heading": "Kontak"
+            }
+        },
+
+        "terms": {
+            "title": "Ketentuan Layanan — TenRusl Droid Vectorizer",
+            "heading": "Ketentuan Layanan",
+            "items": [
+                { "title": "Penerimaan", "body": "Dengan mengakses Layanan, Anda menyetujui ketentuan ini." },
+                {
+                    "title": "Penggunaan",
+                    "body": "Jangan menyalahgunakan Layanan, termasuk spam, scraping berlebihan, atau aktivitas melanggar hukum."
+                },
+                {
+                    "title": "Kepemilikan",
+                    "body": "Hak cipta kode sumber dan aset merek tetap pada pemilik masing-masing."
+                },
+                { "title": "Penafian", "body": "Layanan disediakan “sebagaimana adanya” tanpa jaminan." },
+                {
+                    "title": "Batas Tanggung Jawab",
+                    "body": "Kami tidak bertanggung jawab atas kerugian tidak langsung atau kehilangan data."
+                },
+                { "title": "Iklan", "body": "Kami dapat menayangkan iklan pihak ketiga (Google AdSense)." },
+                { "title": "Perubahan", "body": "Kami dapat memperbarui ketentuan ini dari waktu ke waktu." },
+                { "title": "Kontak", "body": "Lihat halaman Kontak." }
+            ]
+        },
+
+        "cookies": {
+            "title": "Kebijakan Cookie — TenRusl Droid Vectorizer",
+            "heading": "Kebijakan Cookie",
+            "intro": "Kami menggunakan cookie dan teknologi serupa untuk fungsi esensial, analitik, dan periklanan (sesuai persetujuan).",
+            "types": {
+                "heading": "Jenis Cookie",
+                "essential": { "name": "Esensial", "desc": "Keamanan, preferensi inti." },
+                "analytics": { "name": "Analitik", "desc": "Metrik penggunaan agregat." },
+                "advertising": { "name": "Periklanan", "desc": "Iklan personal/non-personal." }
+            },
+            "table": { "headType": "Jenis", "headPurpose": "Tujuan" },
+            "manage": {
+                "heading": "Kelola Preferensi",
+                "body": "Anda dapat menyesuaikan pilihan melalui banner/kontrol cookie kami atau pengaturan peramban.",
+                "resetBtn": "Reset persetujuan"
+            }
+        }
+    }
+}

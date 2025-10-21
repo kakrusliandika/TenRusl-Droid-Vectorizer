@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tenrusl-droid-vectorizer.pages.dev/sitemap.xml

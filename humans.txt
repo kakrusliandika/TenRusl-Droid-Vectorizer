@@ -1,0 +1,11 @@
+TEAM
+  Developer: TenRusl
+  Site: https://tenrusl-droid-vectorizer.pages.dev
+  GitHub: https://github.com/kakrusliandika/TenRusl-Droid-Vectorizer
+
+THANKS
+  svgpath, SVGO, JSZip, Font Awesome
+
+SITE
+  Languages: English, Indonesian
+  Standards: HTML5, CSS3, JavaScript

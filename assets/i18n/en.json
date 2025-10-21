@@ -1,0 +1,52 @@
+{
+    "app.title": "TenRusl Droid Vectorizer",
+    "app.tagline": "Konversi SVG ke Android VectorDrawable",
+
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "cookies": "Cookie",
+
+    "common.reset": "Reset",
+    "common.close": "Tutup",
+    "common.copy": "Salin",
+    "common.copied": "Tersalin",
+    "common.download": "Unduh",
+
+    "preset.max_quality": "Kualitas Maksimal",
+    "preset.balanced": "Seimbang",
+    "preset.max_reduce": "Kompresi Maksimal",
+
+    "vectorizer.inputs": "Input & Pengaturan",
+    "vectorizer.dropTitle": "Jatuhkan berkas SVG di sini",
+    "vectorizer.dropHint": "atau klik untuk memilih berkas",
+    "vectorizer.presets": "Preset",
+    "vectorizer.precision": "Presisi (desimal)",
+    "vectorizer.convertShapes": "Konversi bentuk menjadi path",
+    "vectorizer.defaultDp": "Ukuran default (dp)",
+    "vectorizer.density": "Kerapatan pratinjau",
+    "vectorizer.grid": "Kisi (grid)",
+
+    "vectorizer.downloadLog": "Unduh Log",
+    "vectorizer.exportAll": "Ekspor Semua",
+    "vectorizer.preview": "Pratinjau",
+    "vectorizer.results": "Hasil",
+    "vectorizer.noWarnings": "Tidak ada peringatan",
+
+    "preview.controls.density": "Kerapatan",
+    "preview.controls.theme": "Tema",
+    "preview.controls.grid": "Kisi",
+
+    "vectorizer.ready": "Siap — jatuhkan berkas SVG",
+    "vectorizer.processing": "Memproses…",
+    "vectorizer.done": "Selesai",
+    "vectorizer.failed": "Gagal",
+
+    "actions.preview": "Pratinjau",
+    "actions.xml": "XML",
+    "actions.copyXml": "Salin XML",
+
+    "warn.UNKNOWN": "Lihat referensi mapping untuk detail.",
+    "warn.FILL_NON_SOLID": "Fill non-solid mungkin tidak dapat diterjemahkan ke VectorDrawable.",
+    "warn.STROKE_COMPLEX": "Stroke kompleks mungkin disederhanakan.",
+    "warn.FILTERS_IGNORED": "Filter SVG tidak didukung dan diabaikan."
+}
